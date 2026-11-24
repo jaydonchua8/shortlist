@@ -1,0 +1,293 @@
+{
+ "today": "2026-11-01",
+ "k": 10,
+ "data": "synthetic",
+ "tuning": {
+  "listings": 3000,
+  "students": 300,
+  "fields": {
+   "grade": {
+    "stated": 2715,
+    "correct": 2715,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 285,
+    "invented": 0
+   },
+   "state": {
+    "stated": 3000,
+    "correct": 3000,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 0,
+    "invented": 0
+   },
+   "citizenship": {
+    "stated": 3000,
+    "correct": 3000,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 0,
+    "invented": 0
+   },
+   "cost": {
+    "stated": 2653,
+    "correct": 2653,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 347,
+    "invented": 0
+   },
+   "deadline": {
+    "stated": 2750,
+    "correct": 2750,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 250,
+    "invented": 0
+   }
+  },
+  "all_fields_right_pct": 100.0,
+  "extract_ms_per_listing": 0.721,
+  "methods": {
+   "no rules": {
+    "useful_per_10": 1.69,
+    "shown": 10.0,
+    "ineligible_per_10": 8.29,
+    "ineligible_unflagged_per_10": 8.287,
+    "flagged_verify_per_10": 0.0
+   },
+   "naive regex rules": {
+    "useful_per_10": 3.15,
+    "shown": 10.0,
+    "ineligible_per_10": 6.61,
+    "ineligible_unflagged_per_10": 6.613,
+    "flagged_verify_per_10": 0.0
+   },
+   "extract.py, hide unknown": {
+    "useful_per_10": 9.0,
+    "shown": 10.0,
+    "ineligible_per_10": 0.0,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 0.0
+   },
+   "extract.py, show unknown": {
+    "useful_per_10": 7.62,
+    "shown": 10.0,
+    "ineligible_per_10": 2.01,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 4.32
+   },
+   "hand-labelled rules (ceiling)": {
+    "useful_per_10": 9.36,
+    "shown": 10.0,
+    "ineligible_per_10": 0.0,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 0.0
+   }
+  },
+  "eligible_mean": 475.7,
+  "eligible_hidden_pct_show": 0.0,
+  "eligible_hidden_pct_hide": 26.52,
+  "listings_with_unknown_field_pct": 27.1,
+  "search_ms_median": 3.33,
+  "search_ms_p95": 11.38
+ },
+ "set_a_dev": {
+  "listings": 3000,
+  "students": 300,
+  "fields": {
+   "grade": {
+    "stated": 2550,
+    "correct": 2550,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 450,
+    "invented": 0
+   },
+   "state": {
+    "stated": 3000,
+    "correct": 3000,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 0,
+    "invented": 0
+   },
+   "citizenship": {
+    "stated": 3000,
+    "correct": 3000,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 0,
+    "invented": 0
+   },
+   "cost": {
+    "stated": 2582,
+    "correct": 2582,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 418,
+    "invented": 0
+   },
+   "deadline": {
+    "stated": 2634,
+    "correct": 2634,
+    "wrong": 0,
+    "missed": 0,
+    "accuracy_pct": 100.0,
+    "not_stated": 366,
+    "invented": 0
+   }
+  },
+  "all_fields_right_pct": 100.0,
+  "extract_ms_per_listing": 0.274,
+  "methods": {
+   "no rules": {
+    "useful_per_10": 1.77,
+    "shown": 10.0,
+    "ineligible_per_10": 8.2,
+    "ineligible_unflagged_per_10": 8.2,
+    "flagged_verify_per_10": 0.0
+   },
+   "naive regex rules": {
+    "useful_per_10": 2.59,
+    "shown": 10.0,
+    "ineligible_per_10": 7.25,
+    "ineligible_unflagged_per_10": 7.25,
+    "flagged_verify_per_10": 0.0
+   },
+   "extract.py, hide unknown": {
+    "useful_per_10": 8.87,
+    "shown": 10.0,
+    "ineligible_per_10": 0.0,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 0.0
+   },
+   "extract.py, show unknown": {
+    "useful_per_10": 6.93,
+    "shown": 10.0,
+    "ineligible_per_10": 2.75,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 5.72
+   },
+   "hand-labelled rules (ceiling)": {
+    "useful_per_10": 9.36,
+    "shown": 10.0,
+    "ineligible_per_10": 0.0,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 0.0
+   }
+  },
+  "eligible_mean": 515.2,
+  "eligible_hidden_pct_show": 0.0,
+  "eligible_hidden_pct_hide": 36.29,
+  "listings_with_unknown_field_pct": 36.5,
+  "search_ms_median": 2.9,
+  "search_ms_p95": 5.91
+ },
+ "set_b_heldout": {
+  "listings": 3000,
+  "students": 300,
+  "fields": {
+   "grade": {
+    "stated": 2636,
+    "correct": 1543,
+    "wrong": 297,
+    "missed": 796,
+    "accuracy_pct": 58.54,
+    "not_stated": 364,
+    "invented": 77
+   },
+   "state": {
+    "stated": 3000,
+    "correct": 2638,
+    "wrong": 362,
+    "missed": 0,
+    "accuracy_pct": 87.93,
+    "not_stated": 0,
+    "invented": 0
+   },
+   "citizenship": {
+    "stated": 3000,
+    "correct": 2559,
+    "wrong": 441,
+    "missed": 0,
+    "accuracy_pct": 85.3,
+    "not_stated": 0,
+    "invented": 0
+   },
+   "cost": {
+    "stated": 2675,
+    "correct": 1885,
+    "wrong": 0,
+    "missed": 790,
+    "accuracy_pct": 70.47,
+    "not_stated": 325,
+    "invented": 0
+   },
+   "deadline": {
+    "stated": 2696,
+    "correct": 1772,
+    "wrong": 0,
+    "missed": 924,
+    "accuracy_pct": 65.73,
+    "not_stated": 304,
+    "invented": 0
+   }
+  },
+  "all_fields_right_pct": 24.0,
+  "extract_ms_per_listing": 0.296,
+  "methods": {
+   "no rules": {
+    "useful_per_10": 1.77,
+    "shown": 10.0,
+    "ineligible_per_10": 8.22,
+    "ineligible_unflagged_per_10": 8.22,
+    "flagged_verify_per_10": 0.0
+   },
+   "naive regex rules": {
+    "useful_per_10": 3.07,
+    "shown": 10.0,
+    "ineligible_per_10": 6.74,
+    "ineligible_unflagged_per_10": 6.743,
+    "flagged_verify_per_10": 0.0
+   },
+   "extract.py, hide unknown": {
+    "useful_per_10": 5.51,
+    "shown": 10.0,
+    "ineligible_per_10": 1.45,
+    "ineligible_unflagged_per_10": 1.45,
+    "flagged_verify_per_10": 0.0
+   },
+   "extract.py, show unknown": {
+    "useful_per_10": 4.45,
+    "shown": 10.0,
+    "ineligible_per_10": 5.46,
+    "ineligible_unflagged_per_10": 0.24,
+    "flagged_verify_per_10": 8.81
+   },
+   "hand-labelled rules (ceiling)": {
+    "useful_per_10": 9.46,
+    "shown": 10.0,
+    "ineligible_per_10": 0.0,
+    "ineligible_unflagged_per_10": 0.0,
+    "flagged_verify_per_10": 0.0
+   }
+  },
+  "eligible_mean": 458.1,
+  "eligible_hidden_pct_show": 8.4,
+  "eligible_hidden_pct_hide": 79.29,
+  "listings_with_unknown_field_pct": 75.3,
+  "search_ms_median": 3.14,
+  "search_ms_p95": 4.95
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "listings": 3000,
+ "students": 300,
+ "fields": {
+  "grade": {
+   "stated": 2550,
+   "correct": 2153,
+   "wrong": 394,
+   "missed": 3,
+   "accuracy_pct": 84.43,
+   "not_stated": 450,
+   "invented": 102
+  },
+  "state": {
+   "stated": 3000,
+   "correct": 2658,
+   "wrong": 342,
+   "missed": 0,
+   "accuracy_pct": 88.6,
+   "not_stated": 0,
+   "invented": 0
+  },
+  "citizenship": {
+   "stated": 3000,
+   "correct": 3000,
+   "wrong": 0,
+   "missed": 0,
+   "accuracy_pct": 100.0,
+   "not_stated": 0,
+   "invented": 0
+  },
+  "cost": {
+   "stated": 2582,
+   "correct": 1887,
+   "wrong": 298,
+   "missed": 397,
+   "accuracy_pct": 73.08,
+   "not_stated": 418,
+   "invented": 91
+  },
+  "deadline": {
+   "stated": 2634,
+   "correct": 2588,
+   "wrong": 0,
+   "missed": 46,
+   "accuracy_pct": 98.25,
+   "not_stated": 366,
+   "invented": 0
+  }
+ },
+ "all_fields_right_pct": 54.2,
+ "extract_ms_per_listing": 1.812,
+ "methods": {
+  "no rules": {
+   "useful_per_10": 1.77,
+   "shown": 10.0,
+   "ineligible_per_10": 8.2,
+   "ineligible_unflagged_per_10": 8.2,
+   "flagged_verify_per_10": 0.0
+  },
+  "naive regex rules": {
+   "useful_per_10": 2.59,
+   "shown": 10.0,
+   "ineligible_per_10": 7.25,
+   "ineligible_unflagged_per_10": 7.25,
+   "flagged_verify_per_10": 0.0
+  },
+  "extract.py, hide unknown": {
+   "useful_per_10": 7.57,
+   "shown": 10.0,
+   "ineligible_per_10": 1.4,
+   "ineligible_unflagged_per_10": 1.4,
+   "flagged_verify_per_10": 0.0
+  },
+  "extract.py, show unknown": {
+   "useful_per_10": 6.32,
+   "shown": 10.0,
+   "ineligible_per_10": 3.39,
+   "ineligible_unflagged_per_10": 0.563,
+   "flagged_verify_per_10": 5.94
+  },
+  "hand-labelled rules (ceiling)": {
+   "useful_per_10": 9.36,
+   "shown": 10.0,
+   "ineligible_per_10": 0.0,
+   "ineligible_unflagged_per_10": 0.0,
+   "flagged_verify_per_10": 0.0
+  }
+ },
+ "eligible_mean": 515.2,
+ "eligible_hidden_pct_show": 11.66,
+ "eligible_hidden_pct_hide": 48.91,
+ "listings_with_unknown_field_pct": 42.5,
+ "search_ms_median": 24.21,
+ "search_ms_p95": 46.17
+}
